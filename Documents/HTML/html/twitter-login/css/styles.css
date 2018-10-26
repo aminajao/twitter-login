@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+#home{
+    display: flex;
+}
+.blue{
+    background-color: #0bb8f7;
+    width: 500px;
+    /* background-image: url(''); */
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 180px;
+    padding-left: 150px
+    
+}
+.white{
+    width: 50%;
+    height: 580px;
+}
+.first, .second, .third {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.first{
+    padding-bottom: 23px;
+}
+.third{
+    padding-top: 23px;
+}
+.reduceBird{
+    width: 19px;
+    height: 19px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    height: 51px;
+    border-bottom: 1px solid #a8b9bd;
+    
+}
+.leftNavBar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    align-self: center;
+    align-items: center;
+}
+.rightNavBar{
+    padding-right: 50px;
+    align-self: center;
+}
+.home{
+    padding-left: 7px;
+    font-weight: bold;
+    
+}
+span.home:hover, .about:hover {
+    color: #499cf8;
+
+}
+.about{
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+p{
+    font-family: arial;
+    color: #66757f;
+    font-size: 15px;
+    
+}
+a{
+    text-decoration-line: none;
+
+}
+div.rightNavBar a :hover {
+    text-decoration-line:underline;
+}
+.imgHome{
+    display: flex;
+}
+div.greyBackground{
+    display: flex;
+    background-color: #e2e7e9;
+    height: 577px;
+    padding-top: 11px;
+    justify-content: center;
+    
+}
+div.whiteBackground{
+    height: 210px ;
+    margin-right: 48px;
+    width: 718px;
+    background-color: white;
+    
+}
+p.logOn{
+    font-size: 25px;
+    color: #1d1d1d;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px;
+}
+.border{
+    /* height: 51px; */
+}
+a.border :hover{
+    
+    
+    
+}
+.sameLine{
+    display: flex;
+    align-items: center;
+
+}
+.whiteBackground{
+    padding-top: 35px;
+    padding-left: 150px;
+}
+#firstInput{
+
+}
+input[type=text], input[type=password] {
+    border: 0.5px solid #66757f;
+    border-radius: 4px;
+    height: 34px;
+    width: 300px;
+    font-size: 16px;
+}
+input[type=text]:focus, input[type=password]:focus-within {
+    background-color: #d3d8dc;
+    font-size: 16px;
+}
+.blueBtn{
+    border: 0px;
+    background-color: #3d96f8;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.blueBtn:hover{
+    background-color: #0970e1;
+
+}
+.firstCheck{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+p.rememberMe{
+    color: black;
+    font-size: 15px;
+    padding-right: 6px;
+}
+a.blueLink{
+    color: #0970e1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.blueLink:hover {
+    text-decoration-line: underline;   
+}
+p.padTop{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 718px
+}
+span.signUpNow{
+    color: #0970e1;
+}
+span.signUpNow:hover{
+    text-decoration-line: underline;
+}
+.homePage{
+    display: flex;
+
+}
+.redBird{
+    width: 43px;
+
+
+}
+.rightText{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 140px;
+    padding-top: 110px;
+
+}
+a.longBlueLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4f9ff9;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 400px;
+    height: 40px;
+    border-radius: 24px;
+    
+}
+a.longBlueLink:hover {
+      background-color: #0970e1;
+}
+a.longWhiteLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4f9ff9;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #4f9ff9;
+    width: 400px;
+    height: 40px;
+    border-radius: 24px;
+}
+.birdLogin{
+
+}
+p.smallLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4f9ff9;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid #4f9ff9;
+    width: 77px;
+    height: 40px;
+    border-radius: 24px;
+}
+.blackText{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.863);
+}
